@@ -1,0 +1,188 @@
+
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background\ \(1\).png");
+    background-size: cover;
+    position: absolute;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+}
+
+.body{
+    margin: 0px;
+}
+
+.boy{
+    position: absolute;
+    height: 250px;
+    margin-top: 396px;
+    margin-left: 100px;
+}
+
+.score{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: 'DynaPuff', cursive;
+    color: white;
+}
+
+.box{
+    position: absolute;
+    height: 130px;
+    width: 105px;
+    background-image: url("flame.gif");
+    margin-top: 510px;
+    background-size: 100px 100%;
+}
+
+.end{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    visibility: hidden;
+}
+.banner-img1{
+    background-image: url("background\ \(1\).png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    filter: blur(5px);
+}
+
+.banner-text1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    font-family: 'DynaPuff', cursive;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0,0,0,0.3);
+    color: #57C84D;
+    font-weight: bold;
+    border: 10px inset #fff;
+    margin: 0;
+}
+
+.banner-text1 h1{
+    font-size: 100px;
+    color: red;
+}
+
+.banner-text1 p{
+    padding: 0 8%;
+    font-size: 75px;
+    font-family: 'DynaPuff', cursive;
+    color: #fff;
+}
+
+.g{
+    padding: 0 8%;
+    font-size: 75px;
+    font-family: 'DynaPuff', cursive;
+    color: black;  
+}
+
+.btn{
+    width: 400px;
+    height: 50px;
+    background-color: green;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.start{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.banner-img{
+    background-image: url("background\ \(1\).png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    filter: blur(5px);
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    width: 45%;
+    padding: 40px 0;
+    font-family: 'DynaPuff', cursive;
+    text-align: center;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    background-color: rgba(0,0,0,0.3);
+    color: #57C84D;
+    font-weight: bold;
+    border: 10px inset #fff;
+}
+
+.banner-text p{
+    padding: 0 8%;
+    font-size: 25px;
+    font-family: 'DynaPuff', cursive;
+    color: #fff;
+}
+
+.banner-text h3{
+    color: red;
+    font-size: 30px;
+}
+
+button{
+    width: 260px;
+    height: 45px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 30px;
+    font-family: 'DynaPuff', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+

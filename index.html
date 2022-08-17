@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="shortcut icon" href="12.png" type="image/x-icon">
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <script src="jquery-2.1.4.js"></script>
+
+        <title>Jungle Run &#8482; V.1.0</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body class="body" onkeyup="k(event);">
+
+        <div class="background" id="background">
+            <img src="Run (1).png" id="boy" class="boy">
+            <p class="score" id="score">0</p>
+        </div>
+
+        <div id="end" class="end">
+            <div class="banner-img1"></div>
+            <div class="banner-text1">
+               <h1>Game Over !</h1>
+               <p>Your Score<div id="endscore" class="g">0</div></p>
+               <button class="btn" onclick="r();">Try Again</button>
+            </div>
+        </div>
+
+        <div id="start" class="start">
+            <div class="banner-img"></div>
+            <div class="banner-text">
+                <h1>Jungle Run&#8482;</h1>
+                <p>Jungle run is a 2d and an Adventurous game.<br><br>Press ENTER key for RUN <br> Press SPACE key for JUMP<br></p>
+                <br>
+                <h3>Don't Jump iN TO PLANTS !</h3>
+                <br><br>
+                <button onclick="j();">Click to Play</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
